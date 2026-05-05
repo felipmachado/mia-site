@@ -19,9 +19,20 @@
       padding: 20px;
     }
 
+    header {
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    header img {
+      height: 55px;
+      opacity: 0.95;
+      filter: drop-shadow(0 0 10px rgba(56,189,248,0.4));
+    }
+
     .hero {
       text-align: center;
-      padding: 100px 20px;
+      padding: 60px 20px 100px;
       background: radial-gradient(circle at top, #1e293b, #0b0f1a);
     }
 
@@ -33,6 +44,7 @@
     h2 {
       font-size: 34px;
       margin-top: 80px;
+      text-align: center;
     }
 
     p {
@@ -40,6 +52,7 @@
       font-size: 18px;
       max-width: 600px;
       margin: auto;
+      text-align: center;
     }
 
     .btn {
@@ -71,6 +84,7 @@
       padding: 25px;
       border-radius: 16px;
       transition: 0.3s;
+      text-align: center;
     }
 
     .card:hover {
@@ -93,35 +107,21 @@
       padding: 40px;
       color: #64748b;
     }
-        .logo {
-  height: 50px;
-  width: auto;
-}
-
-.logo-hero {
-  height: 80px;
-  width: auto;
-  margin-bottom: 20px;
-}
-
-.navbar {
-  background: #0b0f1a;
-  padding: 15px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.05);
-}
   </style>
 </head>
 
 <body>
-<header class="navbar">
-  <div class="container">
-    <img src="logo.jpeg" alt="MIA Logo" class="logo">
-  </div>
+
+<header>
+  <img src="logo.png" alt="MIA Logo">
 </header>
+
 <div class="hero">
   <h1>Sua empresa pronta para <span class="highlight">vender 24h</span></h1>
   <p>A MIA responde clientes, organiza atendimentos e aumenta suas vendas automaticamente no WhatsApp.</p>
-  <a class="btn" href="https://wa.me/5519996844200">Quero minha MIA</a>
+  <a class="btn" href="https://wa.me/5519996844200?text=Quero%20automatizar%20meu%20atendimento">
+    Quero minha MIA
+  </a>
 </div>
 
 <div class="container">
@@ -168,15 +168,19 @@
   <div style="text-align:center; margin-top:80px;">
     <h2>Diagnóstico gratuito</h2>
     <p>Descubra como melhorar seu atendimento e vender mais com IA</p>
-    <a class="btn" href="https://wa.me/5519996844200">Falar com especialista</a>
+    <a class="btn" href="https://wa.me/5519996844200?text=Quero%20um%20diagnóstico">
+      Falar com especialista
+    </a>
   </div>
 
 </div>
 
 <footer>
-  MIA • Inteligência Artificial para Atendimento
-  <br>Desenvolvido por Machado.ai.br
+  MIA • Inteligência Artificial para Atendimento<br>
+  Desenvolvido por Machado.ai
 </footer>
 
 </body>
 </html>
+
+
